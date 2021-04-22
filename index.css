@@ -22,6 +22,15 @@ body {
 .box-1 {
   background-color: blue;
   text-align: center;
+
+  /* This is outline is just above the border or we can say touch with border and outfit prop is give ethe space between */
+/* outline-width: 2px;
+outline-style: solid;
+outline-color: black; */
+outline-offset: 10px;
+/* same as above  shorthand */
+  outline: 2px solid black;
+
   /* border-right: 5px solid red;   
     border-top: 5px solid red;
     border-left: 5px solid red;
@@ -150,6 +159,7 @@ a:hover{
     box-sizing: border-box;
     border: 2px solid black;
     margin-top: 1%;
+    min-width: 200px;
 }
 
 /* 
@@ -190,4 +200,40 @@ a:hover{
 }
 .mult-li li:nth-child(even){
   background-color: chocolate;
+}
+
+.height{
+  width: 50%;
+  /* height: 500px; */
+  border: 2px solid red;
+  /* agar contant baree tou height bi bar jayee  */
+  min-height: 200px; 
+  min-width: 200px;
+  max-width: 700px;
+  /* lakin 500px sa na baree content overflow na ho */
+  /* max-height: 500px; */
+  margin-bottom:3%;
+}
+/* min and max width */
+.min-max-width{
+  border: 2px solid red;
+  /* width: 40%; */
+  min-width: 100px;
+  max-width: 900px;
+  padding: 0px 180px;
+  /* box-sizing: border-box; */
+}
+
+
+.over-flow{
+  border: 2px solid green;
+  width: 350px;
+  height: 390px;
+  /* overflow: scroll; */
+  /* overflow: auto; */
+  /* overflow: visible; */
+  /* overflow-y: scroll; */
+  /* overflow-x: auto; */
+  overflow-y: auto;
+  margin-bottom: 20px;
 }
