@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* .main-div{
+    width: 500px;
+    height: 500px;
+    margin: 5% auto;
+    padding: 10% 10%;
+    border: 2px solid red; */
+    /* text-align: center; */
+    /* outline: 2px solid black; */
+    /* outline-offset: 5px; */
+    /* border-radius: 20px 50px 20px 50px; */
+    /* we are giving percantage for make oval or circle */
+    /* border-radius: 50%  50%; */
+/* for old borwser supports we need to add prefix */
+     /* -webkit-border-radius: 30px 60px; */
+   /* -moz-border-radius: 30px 60px; */
+/* background-color:pink; */
+    /* same as below */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+/* give mutiple border in each div */
+    /* box-shadow: 5px 5px 10px blue,10px 10px 25px red,20px 20px 30px yellow; */
+    /* give inside div */
+    /* box-shadow: 5px 5px 50px blue inset; */
+    /* -webkit-box-shadow: 5px 5px 50px blue inset; */
+    /* -moz-box-shadow: 5px 5px 50px blue inset; */
+     
+/* } */
+.first,.second{
+    width: 43%;
+    border: 2px solid red;
+    margin: 20px 0px 0px 10px;
+    float: left;
+   margin-right: 60px;
+   padding: 20px;
+   min-width: 110px;
+}
+.second{
+    width: 43%;
+    border: 2px solid  blue;
+    /* margin: 20px; */
+    float: left;
+}
+
