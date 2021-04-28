@@ -3,6 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    font-weight: 500;
+
+}
 /* .main-div{
     width: 500px;
     height: 500px;
@@ -32,19 +36,81 @@
     /* -moz-box-shadow: 5px 5px 50px blue inset; */
      
 /* } */
-.first,.second{
-    width: 43%;
+.first{
+    width: 400px;
     border: 2px solid red;
     margin: 20px 0px 0px 10px;
     float: left;
    margin-right: 60px;
    padding: 20px;
    min-width: 110px;
+   background-color: red;
 }
 .second{
-    width: 43%;
+    width: 400px;
     border: 2px solid  blue;
-    /* margin: 20px; */
-    float: left;
+    margin: 20px 0px 0px 10px;
+    float: right;
+   margin-right: 60px;
+   padding: 20px;
+   min-width: 110px;
+    background-color: violet;
+    line-height: 32px;
+}
+
+
+/* /we clear property */
+
+.third{
+    border:  3px solid yellow;
+    background-color: yellowgreen;
+    clear: both;
+    /* font-weight: lighter; */
+    /* font-variant: small-caps; */
+    /* font : style  varient weight size/line-height font-family: ;*/
+    font: bolder  small-caps 1em/35px arail,helvetica; 
+    /* width: 50%; */
+  
+  }
+.second span{
+   font-size:  2em;
+}
+
+
+.word-wrap-break{
+    border: 2px solid gray;
+    /* outline-width: 1rem;
+    outline-style: dashed;
+    outline-offset: 10px; */
+    margin: 20px;
+    width: 400px;
+    /* word-wrap: break-word; */
+    word-break: break-all;
+  }
+
+ .text-shadow{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     /* text-shadow: 20px 20px  gray; */
+     /* text-shadow: 20px 10px 2px gray; */
+     /* text-shadow: 0px 0px 50px gray; */
+     /* text-shadow: 2px 2px 3px gray,5px 5px 1px red,10px 10px 2px green; */
+      /* font-size: 80px; */
+      /* text-shadow: 1px 1px 3px #000, 
+               3px 3px 10px blue; */
+    font: bold 80px;
+     margin: 20px;
+ } 
+.white-space{
+    width: 20%;
+    margin: 20px auto;
+    border: 2px solid gray;
+    white-space: pre; 
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+
+    /* white-space: pre;  give how much space it will aqure*/
+    /* white-space: pre-line;   enter kam karta ha  single space*/
+    /* white-space: pre-wrap; pre ki tarha kam karta ha but border ka an der rahee teyee ha magar no wrap ki tarha nahi karat ha or single line ma nahi deyta ha */
 }
 
