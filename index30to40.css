@@ -1,0 +1,76 @@
+/* background size */
+/* prefix if we have old browser thne for firefox we have -moz-background-size for chrome  we have -web-background-size */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+    /* background-color: lightblue; */
+    
+}
+/* *
+p{
+    float: left;
+   width: 30%;
+   margin-top: 2%;
+   padding-left: 5%;
+   position: fixed;
+}
+.main-div{
+    float: right;
+    width: 50%;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 4%;
+}
+li{
+    padding-right: 1%;
+    margin-left: 60px;
+
+} */
+
+
+/* background-origin */
+/* 
+.box{
+    margin: 5%;
+    width: 50%;
+    border: 15px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 300px;
+    text-align: justify;
+    background-image: url(./email.png);
+    background-repeat: no-repeat;
+    background-size: 36%; */
+    /* background-origin: content-box; */
+    /* background-origin: border-box; */
+/* } */
+
+/* it is in exp stage */
+.h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 130px;
+    color: transparent;   
+    background-image: url(./email.png);
+   -webkit-background-clip: text;
+   background-size: 20%;
+}
+
+
+.box{
+    margin: 10%;
+    width: 70%;
+    border: 20px dotted gray;
+    text-align: justify;
+    padding: 4%;
+    background-color: white;
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+    background-clip: border-box;
+}

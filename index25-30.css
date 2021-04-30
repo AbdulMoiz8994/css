@@ -26,9 +26,13 @@ body{
     /* background: url('./email.png') no-repeat right center; */
     background: url('./email.png') no-repeat;
    background-color: aqua;
-    background-size: cover;
+    /* background-size: 50% 50%; */
+       /* background-size: contain; */
+       /* background-size: cover; */
     min-width: 200px;
-
+    background-attachment: fixed;
+    /* -moz-background-size: cover; */
+    /* -webkit-background-size: cover; */
 
 
 
