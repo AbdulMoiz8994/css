@@ -1,0 +1,110 @@
+/* * {
+  margin: 0;
+  padding: 0%; */
+  /* font-family: 'Roboto', sans-serif; */
+/* font-family: var(--fontFmaily); */
+  /* box-sizing: border-box; */
+/* } */
+body{
+  /* background-image: url('./email.png'),url('./email.png'); */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: round;  vertically move*/ 
+   /* background-repeat: no-repeat; */
+  /* background-repeat: space; */
+  /* background-repeat: repeat;  horzontally move*/
+    /* background-position: left top; */
+    /* background-position: right top; */
+    /* X-axis firstValue and y-axissecond value */
+    /* background-position: left center;    */
+    /* background-position: right center; */
+    /* background-position: right bottom; */
+    /* background-position: left bottom; */
+    /* background-position: center center; */
+    /* background-position: 50%  50%, 28vw 60vh; */
+    /* in shorthand */
+    /* background: url('./email.png') no-repeat right center; */
+    background: url('./email.png') no-repeat;
+   background-color: aqua;
+    background-size: cover;
+    min-width: 200px;
+
+
+
+
+
+
+
+
+
+
+
+
+  /* background-size: cover; */
+}
+
+:root{
+    --fontFmaily: 'Roboto', sans-serif;
+}
+.cloumn {
+  width: 90%;
+  margin: 20px auto;
+  border: 2px solid gray;
+  /* outline-width: thin; */
+  /* outline-style: solid; */
+  /* outline-offset: 2px; */
+    /* font-family: 'Noto Serif', serif; */
+  /* height: 500px; */
+  min-height: 200px;
+  font-variant: small-caps;
+  font-size: 20px;
+  /* word-break: break-all; */
+  word-wrap: break-word;
+  column-gap: 170px;
+  column-count: 3;
+  /* column-width: 150px; */
+  /* column-rule: 2px  dotted blueviolet;  */
+  /* column-rule-width: 5px;
+  column-rule-style: groove;
+  column-rule-color: indigo; */
+  padding: 20px;
+}
+h2{
+    column-span: all;
+    /* font-family: openSans !important; */
+
+}
+/* @font-face {
+    font-family: openSans;
+    src: url(/webfonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot),
+        url(/webfonts//opensans_regular_macroman/OpenSans-Regular-webfont.woff)
+}
+.h4{
+    font-family: openSans;
+    /* font-size: 30px; */
+/* } */
+/* The google fonts is better tha this beacuse fotn will come from gogle server and other html css JS will come from our server */
+
+.h4{
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+ul{
+    /* list-style-type: circle; */
+    /* list-style-position: inside; */
+    /* list-style-image: url(iconfinder_ic_keyboard_arrow_right_48px_352468.png); */
+    list-style: none inside url(iconfinder_ic_keyboard_arrow_right_48px_352468.png);
+}
+ul li{
+    padding: -20px 0;
+}
+ol{
+    /* list-style-type: lower-alpha; */
+    list-style-type: decimal-leading-zero;
+    border: 2px solid gray;
+    list-style-position: outside;
+}
+
+
+
