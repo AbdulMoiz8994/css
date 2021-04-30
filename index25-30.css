@@ -62,9 +62,9 @@ body{
   word-wrap: break-word;
   /* column-gap: 200px; */
   column-count: 3;
-  /* column-width: 150px; */
+  /* column-width: 150px; jitna 150 kar kar ka colums a skathee ha unta hi ayee ga chahye kafi ziada columns q na ho jayee */
   /* column-rule: 2px  dotted blueviolet;  */
-  /* column-rule-width: 5px;
+  /* column-rule-width: 5px; 
   column-rule-style: groove;
   column-rule-color: indigo; */
   padding: 20px;
