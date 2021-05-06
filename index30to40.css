@@ -62,7 +62,7 @@ li{
    background-size: 20%;
 }
 
-
+/* 
 .box{
     margin: 10%;
     width: 70%;
@@ -72,5 +72,41 @@ li{
     background-color: white;
     /* background-clip: padding-box; */
     /* background-clip: content-box; */
-    background-clip: border-box;
+    /* background-clip: border-box; */
+/* }  */
+
+
+
+.box{
+    width: 60%;
+    margin: 20px auto;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 200px;
+    /* background-color: hsl(150, 50%, 80%); */
+    /* background: linear-gradient(red,yellow); */
+    /* background: linear-gradient(to left ,red,yellow); */
+
+    /* background: linear-gradient(to top right,red,yellow); */
+    /* background: linear-gradient(to top left,red,yellow); */
+    /* background: linear-gradient(to bottom left,red,yellow); */
+    /* degree deg */
+    /* background: linear-gradient(200deg,red,yellow); */
+
+    /* background: linear-gradient(to top left,red,yellow,green,blue); */
+    background:repeating-linear-gradient(to left ,red,yellow 10%,green 25%);
+
+}
+.box1{
+    width: 50%;
+    margin: 30px auto;
+    border: 2px solid gray;
+    height: 200px;
+    /* background: radial-gradient(circle,red 10%,yellow 30%,green 40%); */
+    /* background: radial-gradient(closest-side at 10% 50% ,red 10%,yellow 30%,green); */
+    /* background: radial-gradient(farthest-corner at 50% 90% ,red 10%,yellow 30%,green); */
+    background: repeating-radial-gradient(red ,yellow 10%,green 20%);
+
+
 }
